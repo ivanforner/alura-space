@@ -1,8 +1,7 @@
 import banner from './banner.png'
-import styles from './Banner.module.scss'
 
 
-const Banner = () => {
+const Banner = ({ styles }) => {
     return (
         <div className={styles.principal__imagem}>
             <h1>A galeria mais completa do espaço</h1>
